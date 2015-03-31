@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{71D894F2-C367-4867-9882-E870937300F0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>VBPractice.Module1</StartupObject>
+    <StartupObject>VBPractice.Module2</StartupObject>
     <RootNamespace>VBPractice</RootNamespace>
     <AssemblyName>VBPractice</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -66,8 +66,10 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class1.vb" />
     <Compile Include="Module1.vb" />
     <Compile Include="Module2.vb" />
+    <Compile Include="Module3.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
